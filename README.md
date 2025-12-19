@@ -1,55 +1,59 @@
-# Analyse Exploratoire des Ventes de Jeux Vidéo (1980-2020)
+# 🎮 Video Game Sales Analysis (EDA) (1980 - 2020)
 
-Ce projet est une Analyse Exploratoire de Données menée en Python sur un jeu de données des ventes mondiales de jeux vidéo. L'objectif est de nettoyer les données, de découvrir des tendances et de communiquer des insights à l'aide de visualisations créées avec Matplotlib et Seaborn.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-visualization-green?style=for-the-badge)
 
----
+🇺🇸 **English Version**
 
-## 🎯 Questions Clés de l'Analyse
+## 📌 Project Overview
+This project performs a comprehensive **Exploratory Data Analysis (EDA)** on the global video game market (1980-2020).
+Using a Kaggle dataset containing 16,000+ records, I analyzed sales trends across different regions, genres, and platforms to extract business insights.
 
-Cette analyse cherche à répondre à plusieurs questions sur l'industrie du jeu vidéo :
-*   Comment les ventes mondiales ont-elles évolué au fil du temps ?
-*   Quels sont les genres, plateformes et éditeurs les plus performants ?
-*   Quelle est la répartition géographique du marché ?
-*   Quelles sont les 10 plateformes les plus vendues de tous les temps ?
+## 🛠️ Tech Stack
+*   **Data Manipulation:** Python (Pandas, NumPy)
+*   **Visualization:** Matplotlib, Seaborn
+*   **Environment:** Jupyter Notebook
 
----
+## 📊 Key Findings & Visualizations
 
-## 🛠️ Outils et Bibliothèques Utilisés
+### 1. Market Evolution: The "Golden Age"
+The physical game market experienced a massive boom between **2005 and 2011**, followed by a decline likely attributed to the shift toward digital distribution.
 
-*   **Langage :** Python
-*   **Bibliothèques :** Pandas, NumPy, Matplotlib, Seaborn
-*   **Environnement :** Jupyter Notebook
+![Sales Evolution](/images/EvolutionVentesJeux.png)
+*(Global sales evolution per year)*
 
----
+### 2. Best-Selling Genres
+**Action** and **Sports** are the undisputed leaders in terms of volume, followed closely by Shooters.
 
-## 📊 Quelques Visualisations Clés
+![Genre Analysis](/images/VentesMondialesGenre.png))
+*(Total sales by Genre)*
 
-**Évolution Annuelle des Ventes Mondiales**
-*![Évolution Annuelle des Ventes Mondiales](images/EvolutionVentesJeux.png)*
+### 3. Regional Market Share
+**North America (NA)** has historically been the largest market, followed by Europe. Japan represents a smaller but distinct market with unique preferences (Role-Playing games).
 
-**Ventes Mondiales par Genre de Jeu**
-*![Ventes Mondiales par Genre de Jeu](images/VentesMondialesGenre.png)*
+![Regional Distribution](/images/RepartitionVentesRegion.png)
+*(Sales breakdown by Region: NA, EU, JP, Other)*
 
-**Répartition Géographique du marché**
-*![Répartition Géographique du marché](images/RepartitionVentesRegion.png)*
+### 4. The "Console Wars"
+The generation including the **PS2, Xbox 360, PS3, and Wii** remains the most successful in history in terms of physical software sales.
 
-**Top 10 des Plateformes les Plus Vendues**
-*![Top 10 des Plateformes les plus Vendues](images/Top10Plateforme.png)*
-
----
-
-## 💡 Principales Conclusions
-
-1.  **Âge d'Or et Déclin :** L'industrie du jeu vidéo physique a connu un "âge d'or" spectaculaire de 2005 à 2011, avant d'entamer un déclin, probablement dû à la transition vers le jeu dématérialisé.
-2.  **Genres Dominants :** Les genres "Action", "Sports" et "Shooter" sont les plus lucratifs et dominent le marché en termes de volume de ventes.
-3.  **Marché Principal :** L'Amérique du Nord est historiquement le marché le plus important, représentant la plus grande part des ventes mondiales.
-4.  **Plateformes Reines:** La génération de consoles incluant la **PlayStation 2, la Xbox 360, la PlayStation 3 et la Nintendo Wii** a été la plus réussie de l'histoire en termes de ventes de jeux, dominant largement le classement des plateformes les plus vendues.
+![Top Platforms](/images/Top10Plateforme.png)
+*(Top 10 Platforms by Global Sales)*
 
 ---
+---
+
+🇫🇷 **Version Française**
+
+## 📌 Description
+Analyse Exploratoire de Données (EDA) sur les ventes mondiales de jeux vidéo. L'objectif est de nettoyer les données, découvrir des tendances et communiquer des insights business.
+
+## 💡 Conclusions Clés
+1.  **L'Âge d'Or (2005-2011) :** L'industrie a connu un pic historique avant la transition vers le dématérialisé.
+2.  **Genres :** Les jeux d'Action et de Sport dominent largement le marché mondial.
+3.  **Géographie :** L'Amérique du Nord reste historiquement le plus gros consommateur de jeux physiques.
+4.  **Plateformes :** La domination de la PS2 et de la génération Wii/PS3/Xbox360 reste inégalée.
 
 ## 📂 Contenu du Dépôt
-
-*   **`analyse_ventes_jeux_video.ipynb`** : Le notebook Jupyter contenant l'intégralité du code, des visualisations et des commentaires de l'analyse.
-*   **`vgsales.csv`** : Le jeu de données brut utilisé pour l'analyse.
-*   **`README.md`** : Ce fichier de présentation.
-*   **/images** : Un dossier contenant les captures d'écran des graphiques.
+*   **`analyse_ventes_jeux_video.ipynb`** : Le code complet (Nettoyage, Analyse, Visualisation).
+*   **`vgsales.csv`** : Le jeu de données source.
+*   **`/images`** : Captures d'écran des graphiques.
