@@ -18,28 +18,28 @@ Using a Kaggle dataset containing 16,000+ records, I analyzed sales trends acros
 ### 1. Market Evolution: The "Golden Age"
 The physical game market experienced a massive boom between **2005 and 2011**, followed by a decline likely attributed to the shift toward digital distribution.
 
-![Sales Evolution](/images/EvolutionVentesJeux.png)
+![Sales Evolution](/images/Evolution_Ventes.png)
 
 *(Global sales evolution per year)*
 
 ### 2. Best-Selling Genres
 **Action** and **Sports** are the undisputed leaders in terms of volume, followed closely by Shooters.
 
-![Genre Analysis](/images/VentesMondialesGenre.png))
+![Genre Analysis](/images/Ventes_Genre.png))
 
 *(Total sales by Genre)*
 
 ### 3. Regional Market Share
 **North America (NA)** has historically been the largest market, followed by Europe. Japan represents a smaller but distinct market with unique preferences (Role-Playing games).
 
-![Regional Distribution](/images/RepartitionVentesRegion.png)
+![Regional Distribution](/images/Repartition_Geo.png)
 
 *(Sales breakdown by Region: NA, EU, JP, Other)*
 
 ### 4. The "Console Wars"
 The generation including the **PS2, Xbox 360, PS3, and Wii** remains the most successful in history in terms of physical software sales.
 
-![Top Platforms](/images/Top10Plateforme.png)
+![Top Platforms](/images/Top10_Plateformes.png)
 
 *(Top 10 Platforms by Global Sales)*
 
